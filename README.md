@@ -24,6 +24,7 @@ dotnet add package Microsoft.AspNetCore.Authentication.MicrosoftAccount
 dotnet add package Microsoft.AspNetCore.Authentication.oAuth
 dotnet add package Microsoft.AspNetCore.Authentication.OpenIDConnect
 dotnet add package Microsoft.AspNetCore.Authentication.Twitter
+dotnet add package Microsoft.CodeAnalysis.CSharp.Workspaces
 
 # IdentityUser
 
