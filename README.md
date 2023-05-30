@@ -32,3 +32,11 @@ donet aspnet-codegenerator identity -dc mydbcontext
 
 # Scaffold (ConnectionString)
 Scaffold-DbContext "Server=DESKTOP-GUQBECH;Database=QLDuAn;integrated security=true; Encrypt=false TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+# SCSS
+npm install --global gulp-cli
+
+npm install gulp
+npm install node-sass postcss sass
+
+npm install gulp-sass gulp-less gulp-concat gulp-cssmin gulp-uglify rimraf gulp-postcss gulp-rename
